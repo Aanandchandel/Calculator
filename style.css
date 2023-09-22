@@ -17,9 +17,10 @@ font-family: 'Poppins',sans-serif;
  align-items: center;
  justify-content: center;
 }
-.calculater{ background-color:rgb(70, 55, 55) ;
+.calculater{ background-color:rgba(37, 32, 32, 0.884) ;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: inset 0px 0px 10px  rgba(240, 232, 232, 0.726);
      
 
 }
@@ -29,7 +30,8 @@ font-family: 'Poppins',sans-serif;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0, 0,0 , 0.1);
+    box-shadow: inset 0px 0px 10px  rgba(240, 232, 232, 0.726);
+    /* box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0, 0,0 , 0.1); */
 background: transparent;
 font-size: 20px;
 color: aliceblue;
@@ -53,6 +55,7 @@ form .display input{
     padding: 5% 5%;
     width: 320px;
     height: 50px;
+    box-shadow: inset 0px 0px 10px  rgba(240, 232, 232, 0.726);
 }
 form input.equal{
     width: 145px;
